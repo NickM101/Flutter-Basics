@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basics/screens/appbar_screens.dart';
 import 'package:flutter_basics/screens/button_screen.dart';
 import 'package:flutter_basics/screens/container_screen.dart';
 import 'package:flutter_basics/screens/dashboard_screen.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Basics',
         themeMode: ThemeMode.system,
-        home: ButtonScreen()
+        home: AppBarScreen()
     );
   }
 }
