@@ -7,16 +7,19 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Flutter Basics')),
-      body: const Center(
-          child: Text.rich(TextSpan(text: 'All ', children: [
-            TextSpan(
-                text: "Flutter",
-                style: TextStyle(fontSize: 50.0, fontWeight: FontWeight.bold)),
-            TextSpan(
-                text: " Basics",
-                style: TextStyle(fontSize: 30.0, color: Colors.blue))
-          ]))),
-
+      body: Container(
+        color: Colors.white10,
+        margin: const EdgeInsets.all(10.0),
+        child: const Center(
+            child: Text.rich(TextSpan(text: 'All ', children: [
+          TextSpan(
+              text: "Flutter",
+              style: TextStyle(fontSize: 50.0, fontWeight: FontWeight.bold)),
+          TextSpan(
+              text: " Basics",
+              style: TextStyle(fontSize: 30.0, color: Colors.blue))
+        ]))),
+      ),
     );
   }
 }
