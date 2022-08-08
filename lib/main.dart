@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basics/screens/dashboard_screen.dart';
+import 'package:flutter_basics/screens/icon_screen.dart';
 import 'package:flutter_basics/screens/image_screen.dart';
 
 // Entry point
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Basics',
         themeMode: ThemeMode.system,
-        home: ImageScreen()
+        home: IconScreen()
     );
   }
 }
