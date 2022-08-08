@@ -6,6 +6,7 @@ import 'package:flutter_basics/screens/dashboard_screen.dart';
 import 'package:flutter_basics/screens/icon_screen.dart';
 import 'package:flutter_basics/screens/image_screen.dart';
 import 'package:flutter_basics/screens/list_view_screen.dart';
+import 'package:flutter_basics/screens/navigation_screen.dart';
 import 'package:flutter_basics/screens/rows_columns.dart';
 
 // Entry point
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Basics',
         themeMode: ThemeMode.system,
-        home: ListViewScreen()
+        home: NavigationDrawerScreen()
     );
   }
 }
